@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: #fff;
+}
+.signupbox{
+    width: 400px;
+    height: 540px;
+    background: rgba(0, 0, 0, 0.849);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.signupbox h2{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.signupbox form{
+    position: relative;
+    padding: 30px;
+    padding-top: 0px;
+}
+h2{
+    color: rgb(192, 192, 192);
+}
+.user{
+    text-align: center;
+}
+.user input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+p{
+    margin-top: 0px;
+}
+.gender input{
+    margin-left: 20px;
+}
+.status input{
+    margin-left: 15px;
+}
+.top input{
+    width: 300px;
+    height: 30px;
+}
+.bottom select{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+
+}
+.sub{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sub input{
+    color: white;
+    width: 250px;
+    padding: 10px;
+    background-color: blue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px -5px red;
+}
+.sub input:hover{
+    background-color: red;
+    color: #fff;
+    box-shadow: 0 5px 15px -5px blue;
+    transition: 0.2s linear;
+}
