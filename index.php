@@ -1,19 +1,20 @@
 <?php
-    require 'function.php';
+require 'function.php';
 
-    if(isset($_POST["submit"])){
-       if(registrasi($_POST) > 0){
-            echo "<script>
+if (isset($_POST["submit"])) {
+    if (registrasi($_POST) > 0) {
+        echo "<script>
                     alert('New user has registered!');
                   </script>";
-        }else{
-            echo mysqli_error($conn);
-        }
+    } else {
+        echo mysqli_error($conn);
     }
+}
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,18 +22,21 @@
     <title>Login</title>
     <link href="login.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="signupbox">
-        <h2>Signup</h2>
-        <form action = "" method="POST">
-            <div class = "user">
+        <div class="header">
+            <h2>Signup</h2>
+        </div>
+        <form action="" method="POST">
+            <div class="user">
                 <!-- input text -->
                 <div class="top">
                     <label>Name </label><br>
                     <input name="nama" id="nama" type="text" required>
                     <br><br>
                     <label>Email </label><br>
-                    <input name="email" id="email" type="email"  required>
+                    <input name="email" id="email" type="email" required>
                 </div>
                 <!-- end input text -->
                 <br>
@@ -72,11 +76,12 @@
                 <br>
             </div>
             <!-- submit -->
-            <div class = "sub">
+            <div class="sub">
                 <input type="submit" name="submit" value="Submit" />
             </div>
             <!-- end submit -->
         </form>
     </div>
 </body>
+
 </html>
