@@ -33,10 +33,10 @@ if (isset($_POST["submit"])) {
                 <!-- input text -->
                 <div class="top">
                     <label>Name </label><br>
-                    <input name="nama" id="nama" type="text" required>
+                    <input name="nama" id="nama" type="text" placeholder="Enter Your Name" required>
                     <br><br>
                     <label>Email </label><br>
-                    <input name="email" id="email" type="email" required>
+                    <input name="email" id="email" type="email" placeholder="Enter Your Email" required>
                 </div>
                 <!-- end input text -->
                 <br>
