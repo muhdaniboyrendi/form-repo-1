@@ -42,7 +42,7 @@ if (isset($_POST["submit"])) {
                 <br>
                 <!-- gender -->
                 <div class="gender">
-                    <p>Gender </p>
+                    <p>Gender :</p>
                     <input name="gender" id="gender" type="radio" value="Male" required>
                     <label>Male</label>
                     <input name="gender" id="gender" type="radio" value="Female" required>
@@ -52,7 +52,7 @@ if (isset($_POST["submit"])) {
                 <br>
                 <!-- city -->
                 <div class="bottom">
-                    <p>City </p>
+                    <p>City :</p>
                     <select name="city" id="city">
                         <option value="Solo">Solo</option>
                         <option value="Karanganyar">Karanganyar</option>
@@ -64,7 +64,7 @@ if (isset($_POST["submit"])) {
                 <br>
                 <!-- status -->
                 <div class="status">
-                    <p>Status</p>
+                    <p>Status :</p>
                     <input type="checkbox" name="status" id="status" value="Pelajar">
                     <label>Pelajar</label>
                     <input type="checkbox" name="status" id="status" Value="Kerja">
