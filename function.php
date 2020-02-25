@@ -12,7 +12,7 @@
         $status = $data["status"];
 
         //Tambah user ke database
-        mysqli_query($conn, "INSERT INTO users VALUES('$nama', '$email', '$gender', '$city', '$status')");
+        mysqli_query($conn, "INSERT INTO users VALUES('', '$nama', '$email', '$gender', '$city', '$status')");
         return mysqli_affected_rows($conn);
     }
 ?>

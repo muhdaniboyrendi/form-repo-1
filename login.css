@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(129, 127, 109);
+    background: rgb(70, 69, 60);
     background-size: cover;
     font-family: sans-serif;
     color: #fff;
 }
-.signupbox{
-    background: rgb(240, 240, 240);
-    color: rgb(0, 0, 0);
+.box{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 600;
     top: 50%;
     left: 50%;
@@ -29,7 +29,7 @@ body{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-.signupbox h2{
+.box h2{
     text-align: center;
     margin-bottom: 30px;
     padding: 15px;
@@ -37,7 +37,7 @@ body{
     font-style: oblique;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.signupbox form{
+.box form{
     position: relative;
     padding: 30px;
     padding-top: 0px;
@@ -50,10 +50,10 @@ body{
     background: transparent;
     outline: none;
     border: none;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
     background: transparent;
     outline: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-left: 20px;
     font-size: 15px;
 }
@@ -77,18 +77,18 @@ p{
     background: transparent;
     outline: none;
     border: none;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
     background: transparent;
     outline: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 15px;
 }
 .bottom select option{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 .sub{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .sub input{
     color: rgb(228, 228, 228);
@@ -106,6 +106,33 @@ p{
     box-shadow: 0 5px 15px -5px red;
 }
 .sub input:hover{
+    background-color: red;
+    color: rgb(228, 228, 228);
+    box-shadow: 0 5px 15px -5px blue;
+    transition: 0.2s linear;
+}
+.link{
+    margin: auto;
+    background: blue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 5px 15px -5px red;
+    width: 250px;
+    height: 30px;
+    padding-top: 10px;
+}
+.link a{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+.link:hover{
     background-color: red;
     color: rgb(228, 228, 228);
     box-shadow: 0 5px 15px -5px blue;

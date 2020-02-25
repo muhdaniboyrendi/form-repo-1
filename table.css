@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: black;
+    color: white;
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid white;
+    text-align: center;
+}
+th{
+    background: rgb(32, 32, 32);
+}
+th.id{
+    width: 30px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+a{
+    text-decoration: none;
+    color: #1cb9e0;
+}
+a:hover{
+    text-decoration: underline;
+    transition: .5s;
+}
+a.add{
+    text-decoration: none;
+    color: white;
+    background: rgb(58, 58, 58);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+a.add:hover{
+    color: black;
+    background: #1cb9e0;
+    transition: .5s;
+}
